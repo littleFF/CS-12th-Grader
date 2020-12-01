@@ -56,10 +56,10 @@ git clone https://github.com/littleFF/CS-12th-Grader.git
 
 
 
-2.Move your project directory into CS-12th-Grader and name it XXX's word cloud project
+2. Move your project directory into CS-12th-Grader and name it XXX's word cloud project
 
 
-3.Add & commit
+3. Add & commit
 ```
 git add <filename>
 git add *
@@ -71,7 +71,7 @@ git commit -m "Commit message"
 ```
 Now the file is committed to the HEAD, but not in your remote repository yet.
 
-4.Pushing changes
+4. Pushing changes
 Your changes are now in the HEAD of your local working copy. To send those changes to your remote repository, execute 
 ```
 git push origin master
