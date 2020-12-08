@@ -45,36 +45,47 @@ Register an github account, and commit an introduction to my repo.
 
 
 
-## Task Dec 1st:
+## Task Dec :
 ***
 1. checkout a repository
 
 when using a remote server, your command will be
 ```
-git clone https://github.com/littleFF/CS-12th-Grader.git
+git clone https://github.com/YOURGITHUB/CS-12th-Grader.git
 ```
 
 
 
 2. Move your project directory into CS-12th-Grader and name it XXX's word cloud project
+```
+cd CS-12th-Grader
+```
 
 
 3. Add & commit
 ```
 git add <filename>
-git add *
+git add .
 ```
 This is the first step in the basic git workflow. To actually commit these changes use
 ```
-git commit -m "Commit message"
+git commit -m "Your Commit message"
 
 ```
 Now the file is committed to the HEAD, but not in your remote repository yet.
 
-4. Pushing changes
+4. Remember
+
+update & merge
+to update your local repository to the newest commit, execute 
+```
+git pull
+```
+
+5. Pushing changes
 Your changes are now in the HEAD of your local working copy. To send those changes to your remote repository, execute 
 ```
-git push origin master
+git push 
 ```
 Change master to whatever branch you want to push your changes to. 
 
@@ -84,13 +95,10 @@ git remote add origin <server>
 ```
 Now you are able to push your changes to the selected remote server
 
-5. Remember
+## Pull request
 
-update & merge
-to update your local repository to the newest commit, execute 
-```
-git pull
-```
+You can read: https://www.cnblogs.com/jinqi520/p/10384225.html
+https://zhuanlan.zhihu.com/p/51199833
 
 
 
