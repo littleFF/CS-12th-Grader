@@ -1,47 +1,32 @@
 # CS-12th-Grader
 
-## Task Nov 10th:
+
+
+
+## Task Dec 22th：Create a web crawler for extracting and processing websites’ data.
 ***
-* Run your first github project on your computer:
+![avatar](https://brain-mentors.com/wp-content/uploads/2020/05/Untitled-picture-12.png)
 
+### Steps Involved in Web Crawling  
 
-learn to know how to read a markdown file in github
+To perform this tutorial step-by-step with me, you’ll need Python3 already configured on your local development machine. You can set up everything you need before-hand and then come back to continue ahead.
 
-From: https://github.com/will8211/unimatrix/blob/master/README.md
-***
+### Creating a Basic Web Scraper  
 
-# UniMatrix
+### Web Scraping is a two-step process:  
 
-Python script to simulate the display from "The Matrix" in terminal. Uses half-width katakana unicode characters by default, but can use custom character sets. Accepts keyboard controls while running.
+1. You send HTTP request and get source code web pages.  
 
-Based on CMatrix by Chris Allegretta and Abishek V. Ashok. The following option should produce virtually the same output as CMatrix:
+2. You take that source code and extract information from it.  
+
+Both these steps can be implemented in numerous ways in various languages. But we will be using request and bs4 packages of python to perform them.  
 ```
-$ unimatrix -n -s 96 -l o
+pip install beautifulsoup4
 ```
-## Install
+If you want to install BeautifulSoup4 without using pip or you face any issues during installation you can always refer to the official documentation.  
 
-Linux users can use curl to install:
-```
-sudo curl -L https://raw.githubusercontent.com/will8211/unimatrix/master/unimatrix.py -o /usr/local/bin/unimatrix
-sudo chmod a+rx /usr/local/bin/unimatrix
-```
-If you do not have curl, you can alternatively use a recent wget:
-```
-sudo wget https://raw.githubusercontent.com/will8211/unimatrix/master/unimatrix.py -O /usr/local/bin/unimatrix
-sudo chmod a+rx /usr/local/bin/unimatrix
-```
-You can also install it with pip:
-```
-pip install git+https://github.com/will8211/unimatrix.git
-```
+You can read:  https://brain-mentors.com/web-crawling-in-python/  
 
-Users of Arch-based distros can get it from the AUR as ```unimatrix-git```, although it might not be the most recent version.
-
-
-
-## Task Nov 11th:
-***
-Register an github account, and commit an introduction to my repo.
 
 
 
@@ -102,6 +87,51 @@ https://zhuanlan.zhihu.com/p/51199833
 
 
 
+## Task Nov 11th:
+***
+Register an github account, and commit an introduction to my repo.
 
 
-# wordcloud-kin
+
+
+## Task Nov 10th:
+***
+* Run your first github project on your computer:
+
+
+learn to know how to read a markdown file in github
+
+From: https://github.com/will8211/unimatrix/blob/master/README.md
+***
+
+# UniMatrix
+
+Python script to simulate the display from "The Matrix" in terminal. Uses half-width katakana unicode characters by default, but can use custom character sets. Accepts keyboard controls while running.
+
+Based on CMatrix by Chris Allegretta and Abishek V. Ashok. The following option should produce virtually the same output as CMatrix:
+```
+$ unimatrix -n -s 96 -l o
+```
+## Install
+
+Linux users can use curl to install:
+```
+sudo curl -L https://raw.githubusercontent.com/will8211/unimatrix/master/unimatrix.py -o /usr/local/bin/unimatrix
+sudo chmod a+rx /usr/local/bin/unimatrix
+```
+If you do not have curl, you can alternatively use a recent wget:
+```
+sudo wget https://raw.githubusercontent.com/will8211/unimatrix/master/unimatrix.py -O /usr/local/bin/unimatrix
+sudo chmod a+rx /usr/local/bin/unimatrix
+```
+You can also install it with pip:
+```
+pip install git+https://github.com/will8211/unimatrix.git
+```
+
+Users of Arch-based distros can get it from the AUR as ```unimatrix-git```, although it might not be the most recent version.
+
+
+
+
+
