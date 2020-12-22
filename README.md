@@ -4,8 +4,9 @@
 
 
 ## Task Dec 22th：Create a web crawler for extracting and processing websites’ data.
-***
-![avatar](https://brain-mentors.com/wp-content/uploads/2020/05/Untitled-picture-12.png)
+***   
+
+![avatar](../../images/Untitled-picture-12.png)
 
 ### Steps Involved in Web Crawling  
 
