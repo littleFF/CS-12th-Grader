@@ -6,10 +6,9 @@
 ## Task Dec 22th：Create a web crawler for extracting and processing websites’ data.
 ***   
 
-![avatar](../../images/Untitled-picture-12.png)
+![crawler](/images/Untitled-picture-12.png)
 
 ### Steps Involved in Web Crawling  
-
 To perform this tutorial step-by-step with me, you’ll need Python3 already configured on your local development machine. You can set up everything you need before-hand and then come back to continue ahead.
 
 ### Creating a Basic Web Scraper  
