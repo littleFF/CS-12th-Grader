@@ -1,7 +1,8 @@
 # CS-12th-Grader
 
 
-
+## How to update your fork project  
+read this doc: [如何同步更新Github上Fork的项目](https://www.cnblogs.com/idyllcheung/p/13555934.html)
 
 ## Task Dec 22th：Create a web crawler for extracting and processing websites’ data.
 ***   
