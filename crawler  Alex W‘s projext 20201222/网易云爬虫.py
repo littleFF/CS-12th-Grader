@@ -42,19 +42,17 @@ def create_word_cloud(f):
    f = remove_stop_words(f)
    cut_text = " ".join(jieba.cut(f, cut_all=False, HMM=True))
    wc = WordCloud(width=1000,
-                        height=700,
-                        background_color='white',
-                        mask=mk,
-                        font_path='msyh.ttc', )
+                  height=700,
+                  background_color='white',
+                  mask=mk,
+                  font_path='msyh.ttc', )
    print(cut_text)
-   wordcloud = wc.generate(cut_text)
+   wc.generate(cut_text)
    # 写词云图片
-   wordcloud.to_file("wordcloud.jpg")
-   # 显示词云文件
-   plt.imshow(wordcloud)
-   plt.axis("off")
-   plt.show()
+   image_color = wordcloud.ImageColorGenerator(mk)
 
+   wc_color = wc.recolor(color_func=image_color)
+   wc_color.to_file('陈奕迅词云.png')
 
 def get_songs(artist_id):
    page_url = 'https://music.163.com/artist?id=' + artist_id
