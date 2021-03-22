@@ -1,5 +1,13 @@
 # CS-12th-Grader
 
+## Build a face recognition project for Graguate Ceremony
+There will be two team preparing face recognition project, one is AI face changing, and another one is find face in video.
+## Team Will
+@import "face_recognition/Will 可行性报告.docx"
+
+## Team Jimmy
+@import "face_recognition/可行性报告.docx"
+
 
 ## How to update your fork project  
 read this doc: [如何同步更新Github上Fork的项目](https://www.cnblogs.com/idyllcheung/p/13555934.html)
